@@ -20,7 +20,7 @@ public class UnsplashTest {
                 .setValue("123456")
                 .shouldBe(Condition.value("123456"));
 
-//Проверка отклика кнопки ""Login
+//Проверка отклика кнопки "Login"
         $x("//div[@class='form-group']//input[@name='commit']")
                 .shouldBe(Condition.visible)
                 .click();
